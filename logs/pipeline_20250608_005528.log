@@ -1,0 +1,42 @@
+2025-06-08 00:55:28,540 - StructurePreservingImageProcessor - INFO - 💻 Using CPU processing
+2025-06-08 00:55:28,540 - Main - INFO - 🚀 Starting enhanced melanoma processing pipeline
+2025-06-08 00:55:28,540 - Main - INFO - 📁 Input path: ./melanoma_cancer_dataset
+2025-06-08 00:55:28,540 - Main - INFO - 📁 Output path: ./processed_output
+2025-06-08 00:55:28,540 - Main - INFO - 🎯 Available filters: ['average_blur', 'gaussian', 'fourier', 'wavelet', 'bilateral', 'medical_bilateral', 'lesion_enhancement', 'optimized_wavelet', 'adaptive_gaussian']
+2025-06-08 00:55:28,540 - Main - INFO - 🏥 Medical filters: ['medical_bilateral', 'lesion_enhancement', 'optimized_wavelet', 'adaptive_gaussian']
+2025-06-08 00:55:28,540 - Main - INFO - Performance monitoring started
+2025-06-08 00:55:28,540 - Main - INFO - Initial memory usage: 5.04 GB
+2025-06-08 00:55:28,830 - StructurePreservingImageProcessor - INFO - 📊 Found 10605 images in 4 categories:
+2025-06-08 00:55:28,830 - StructurePreservingImageProcessor - INFO -    test/malignant: 500 images
+2025-06-08 00:55:28,830 - StructurePreservingImageProcessor - INFO -    test/benign: 500 images
+2025-06-08 00:55:28,830 - StructurePreservingImageProcessor - INFO -    train/malignant: 4605 images
+2025-06-08 00:55:28,830 - StructurePreservingImageProcessor - INFO -    train/benign: 5000 images
+2025-06-08 00:55:28,831 - StructurePreservingImageProcessor - INFO - 🔄 Processing 10605 images with filters: ['medical_bilateral', 'lesion_enhancement', 'optimized_wavelet', 'adaptive_gaussian']
+2025-06-08 00:55:28,831 - StructurePreservingImageProcessor - INFO - 🎯 Starting filter: medical_bilateral
+2025-06-08 00:55:31,667 - StructurePreservingImageProcessor - INFO -    ✅ test/malignant: 500/500 images in 2.8s
+2025-06-08 00:55:34,535 - StructurePreservingImageProcessor - INFO -    ✅ test/benign: 500/500 images in 2.9s
+2025-06-08 00:55:59,554 - StructurePreservingImageProcessor - INFO -    ✅ train/malignant: 4605/4605 images in 25.0s
+2025-06-08 00:56:27,877 - StructurePreservingImageProcessor - INFO -    ✅ train/benign: 5000/5000 images in 28.3s
+2025-06-08 00:56:27,877 - StructurePreservingImageProcessor - INFO - 🎉 Filter medical_bilateral completed: 10605/10605 images in 59.0s
+2025-06-08 00:56:27,877 - StructurePreservingImageProcessor - INFO - 🎯 Starting filter: lesion_enhancement
+2025-06-08 00:56:29,597 - StructurePreservingImageProcessor - INFO -    ✅ test/malignant: 500/500 images in 1.7s
+2025-06-08 00:56:31,530 - StructurePreservingImageProcessor - INFO -    ✅ test/benign: 500/500 images in 1.9s
+2025-06-08 00:56:48,273 - StructurePreservingImageProcessor - INFO -    ✅ train/malignant: 4605/4605 images in 16.7s
+2025-06-08 00:57:07,769 - StructurePreservingImageProcessor - INFO -    ✅ train/benign: 5000/5000 images in 19.5s
+2025-06-08 00:57:07,770 - StructurePreservingImageProcessor - INFO - 🎉 Filter lesion_enhancement completed: 10605/10605 images in 39.9s
+2025-06-08 00:57:07,770 - StructurePreservingImageProcessor - INFO - 🎯 Starting filter: optimized_wavelet
+2025-06-08 00:57:10,222 - StructurePreservingImageProcessor - INFO -    ✅ test/malignant: 500/500 images in 2.5s
+2025-06-08 00:57:12,950 - StructurePreservingImageProcessor - INFO -    ✅ test/benign: 500/500 images in 2.7s
+2025-06-08 00:57:36,443 - StructurePreservingImageProcessor - INFO -    ✅ train/malignant: 4605/4605 images in 23.5s
+2025-06-08 00:58:03,335 - StructurePreservingImageProcessor - INFO -    ✅ train/benign: 5000/5000 images in 26.9s
+2025-06-08 00:58:03,335 - StructurePreservingImageProcessor - INFO - 🎉 Filter optimized_wavelet completed: 10605/10605 images in 55.6s
+2025-06-08 00:58:03,335 - StructurePreservingImageProcessor - INFO - 🎯 Starting filter: adaptive_gaussian
+2025-06-08 00:58:04,967 - StructurePreservingImageProcessor - INFO -    ✅ test/malignant: 500/500 images in 1.6s
+2025-06-08 00:58:06,703 - StructurePreservingImageProcessor - INFO -    ✅ test/benign: 500/500 images in 1.7s
+2025-06-08 00:58:21,840 - StructurePreservingImageProcessor - INFO -    ✅ train/malignant: 4605/4605 images in 15.1s
+2025-06-08 00:58:39,411 - StructurePreservingImageProcessor - INFO -    ✅ train/benign: 5000/5000 images in 17.6s
+2025-06-08 00:58:39,411 - StructurePreservingImageProcessor - INFO - 🎉 Filter adaptive_gaussian completed: 10605/10605 images in 36.1s
+2025-06-08 00:58:39,411 - StructurePreservingImageProcessor - INFO - ⚡ Total processing time: 190.6s
+2025-06-08 00:58:39,412 - Main - INFO - Processing completed in 190.87s
+2025-06-08 00:58:39,412 - Main - INFO - Memory change: -0.12 GB
+2025-06-08 00:58:39,412 - Main - INFO - CPU usage: 54.6%

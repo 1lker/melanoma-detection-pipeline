@@ -1,0 +1,30 @@
+2025-06-08 00:41:48,402 - ImageProcessor - INFO - Using CPU processing
+2025-06-08 00:41:48,403 - Main - INFO - 🚀 Starting melanoma image processing pipeline
+2025-06-08 00:41:48,403 - Main - INFO - 📁 Input path: ./melanoma_cancer_dataset
+2025-06-08 00:41:48,403 - Main - INFO - 📁 Output path: ./processed_output
+2025-06-08 00:41:48,403 - Main - INFO - 🖼️  Target size: [224, 224]
+2025-06-08 00:41:48,403 - Main - INFO - 📦 Batch size: 32
+2025-06-08 00:41:48,403 - Main - INFO - 👥 Workers: 4
+2025-06-08 00:41:48,403 - Main - INFO - 🔧 GPU enabled: False
+2025-06-08 00:41:48,403 - Main - INFO - Performance monitoring started
+2025-06-08 00:41:48,403 - Main - INFO - Initial memory usage: 5.10 GB
+2025-06-08 00:41:48,444 - ImageProcessor - INFO - Found 10605 images
+2025-06-08 00:41:48,444 - ImageProcessor - INFO - Processing 10605 images with filters: ['average_blur', 'gaussian', 'fourier', 'wavelet', 'bilateral']
+2025-06-08 00:42:04,753 - ImageProcessor - INFO - Filter average_blur: 10605/10605 images processed in 16.31s
+2025-06-08 00:42:21,026 - ImageProcessor - INFO - Filter gaussian: 10605/10605 images processed in 16.27s
+2025-06-08 00:42:44,392 - ImageProcessor - INFO - Filter fourier: 10605/10605 images processed in 23.37s
+2025-06-08 00:43:13,900 - ImageProcessor - INFO - Filter wavelet: 10605/10605 images processed in 29.51s
+2025-06-08 00:43:38,317 - ImageProcessor - INFO - Filter bilateral: 10605/10605 images processed in 24.42s
+2025-06-08 00:43:38,318 - ImageProcessor - INFO - Total processing time: 109.87s
+2025-06-08 00:43:38,318 - Main - INFO - Processing completed in 109.92s
+2025-06-08 00:43:38,318 - Main - INFO - Memory change: -0.02 GB
+2025-06-08 00:43:38,318 - Main - INFO - CPU usage: 65.5%
+2025-06-08 00:43:38,318 - Main - INFO - ✅ average_blur: 10605 images processed
+2025-06-08 00:43:38,318 - Main - INFO - ✅ gaussian: 10605 images processed
+2025-06-08 00:43:38,318 - Main - INFO - ✅ fourier: 10605 images processed
+2025-06-08 00:43:38,318 - Main - INFO - ✅ wavelet: 10605 images processed
+2025-06-08 00:43:38,318 - Main - INFO - ✅ bilateral: 10605 images processed
+2025-06-08 00:43:38,318 - Main - INFO - 📈 duration_seconds: 109.91500115394592
+2025-06-08 00:43:38,318 - Main - INFO - 📈 memory_change_gb: -0.022491455078125
+2025-06-08 00:43:38,318 - Main - INFO - 📈 cpu_percent: 65.5
+2025-06-08 00:43:38,318 - Main - INFO - 📈 peak_memory_gb: 5.0791168212890625

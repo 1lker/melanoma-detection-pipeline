@@ -1,0 +1,34 @@
+2025-06-08 01:06:57,354 - ImageProcessor - INFO - Using CPU processing
+2025-06-08 01:06:57,354 - Main - INFO - 🚀 Starting melanoma image processing pipeline
+2025-06-08 01:06:57,354 - Main - INFO - 📁 Input path: ./melanoma_cancer_dataset
+2025-06-08 01:06:57,354 - Main - INFO - 📁 Output path: ./processed_output
+2025-06-08 01:06:57,354 - Main - INFO - 🖼️  Target size: [224, 224]
+2025-06-08 01:06:57,354 - Main - INFO - 📦 Batch size: 32
+2025-06-08 01:06:57,354 - Main - INFO - 👥 Workers: 4
+2025-06-08 01:06:57,354 - Main - INFO - 🔧 GPU enabled: False
+2025-06-08 01:06:57,354 - Main - INFO - Performance monitoring started
+2025-06-08 01:06:57,354 - Main - INFO - Initial memory usage: 5.09 GB
+2025-06-08 01:06:57,367 - ImageProcessor - INFO - Found 10605 images
+2025-06-08 01:06:57,367 - ImageProcessor - INFO - Processing 10605 images with filters: ['average_blur', 'gaussian', 'fourier', 'wavelet', 'bilateral', 'improved_bilateral', 'subtle_enhancement']
+2025-06-08 01:07:13,513 - ImageProcessor - INFO - Filter average_blur: 10605/10605 images processed in 16.15s
+2025-06-08 01:07:30,262 - ImageProcessor - INFO - Filter gaussian: 10605/10605 images processed in 16.75s
+2025-06-08 01:07:55,608 - ImageProcessor - INFO - Filter fourier: 10605/10605 images processed in 25.35s
+2025-06-08 01:08:26,411 - ImageProcessor - INFO - Filter wavelet: 10605/10605 images processed in 30.80s
+2025-06-08 01:08:50,842 - ImageProcessor - INFO - Filter bilateral: 10605/10605 images processed in 24.43s
+2025-06-08 01:09:16,324 - ImageProcessor - INFO - Filter improved_bilateral: 10605/10605 images processed in 25.48s
+2025-06-08 01:09:36,841 - ImageProcessor - INFO - Filter subtle_enhancement: 10605/10605 images processed in 20.52s
+2025-06-08 01:09:36,841 - ImageProcessor - INFO - Total processing time: 159.47s
+2025-06-08 01:09:36,842 - Main - INFO - Processing completed in 159.49s
+2025-06-08 01:09:36,842 - Main - INFO - Memory change: -0.08 GB
+2025-06-08 01:09:36,842 - Main - INFO - CPU usage: 65.7%
+2025-06-08 01:09:36,842 - Main - INFO - ✅ average_blur: 10605 images processed
+2025-06-08 01:09:36,842 - Main - INFO - ✅ gaussian: 10605 images processed
+2025-06-08 01:09:36,842 - Main - INFO - ✅ fourier: 10605 images processed
+2025-06-08 01:09:36,842 - Main - INFO - ✅ wavelet: 10605 images processed
+2025-06-08 01:09:36,842 - Main - INFO - ✅ bilateral: 10605 images processed
+2025-06-08 01:09:36,842 - Main - INFO - ✅ improved_bilateral: 10605 images processed
+2025-06-08 01:09:36,842 - Main - INFO - ✅ subtle_enhancement: 10605 images processed
+2025-06-08 01:09:36,842 - Main - INFO - 📈 duration_seconds: 159.48776078224182
+2025-06-08 01:09:36,842 - Main - INFO - 📈 memory_change_gb: -0.0783843994140625
+2025-06-08 01:09:36,842 - Main - INFO - 📈 cpu_percent: 65.7
+2025-06-08 01:09:36,842 - Main - INFO - 📈 peak_memory_gb: 5.008270263671875
