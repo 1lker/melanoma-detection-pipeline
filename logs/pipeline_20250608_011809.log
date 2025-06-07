@@ -38,3 +38,10 @@
 2025-06-08 01:19:53,036 - ImageProcessor - INFO - 🎯 Starting filter: subtle_enhancement
 2025-06-08 01:19:54,251 - ImageProcessor - INFO -    ✅ test/malignant: 500/500 images
 2025-06-08 01:19:55,503 - ImageProcessor - INFO -    ✅ test/benign: 500/500 images
+2025-06-08 01:20:06,828 - ImageProcessor - INFO -    ✅ train/malignant: 4605/4605 images
+2025-06-08 01:20:18,094 - ImageProcessor - INFO -    ✅ train/benign: 5000/5000 images
+2025-06-08 01:20:18,094 - ImageProcessor - INFO - 🎉 subtle_enhancement: 10605/10605 total
+2025-06-08 01:20:18,094 - ImageProcessor - INFO - ⚡ Total time: 128.8s
+2025-06-08 01:20:18,095 - Main - INFO - Processing completed in 129.03s
+2025-06-08 01:20:18,095 - Main - INFO - Memory change: +0.34 GB
+2025-06-08 01:20:18,095 - Main - INFO - CPU usage: 63.8%
