@@ -1,0 +1,47 @@
+2025-06-08 01:22:15,775 - ImageProcessor - INFO - 💻 Using CPU processing
+2025-06-08 01:22:15,775 - Main - INFO - 🚀 Starting structure-preserving pipeline
+2025-06-08 01:22:15,775 - Main - INFO - 📁 Input: ./melanoma_cancer_dataset
+2025-06-08 01:22:15,775 - Main - INFO - 📁 Output: ./processed_output
+2025-06-08 01:22:15,775 - Main - INFO - 🌟 Recommended filters: ['average_blur', 'gaussian', 'bilateral', 'improved_bilateral', 'subtle_enhancement']
+2025-06-08 01:22:15,775 - Main - INFO - Performance monitoring started
+2025-06-08 01:22:15,775 - Main - INFO - Initial memory usage: 6.26 GB
+2025-06-08 01:22:16,067 - ImageProcessor - INFO - 📊 Dataset Structure: 10605 total images
+2025-06-08 01:22:16,067 - ImageProcessor - INFO -    test/malignant: 500 images
+2025-06-08 01:22:16,067 - ImageProcessor - INFO -    test/benign: 500 images
+2025-06-08 01:22:16,067 - ImageProcessor - INFO -    train/malignant: 4605 images
+2025-06-08 01:22:16,067 - ImageProcessor - INFO -    train/benign: 5000 images
+2025-06-08 01:22:16,067 - ImageProcessor - INFO - 🔄 Processing 10605 images with ['average_blur', 'gaussian', 'bilateral', 'improved_bilateral', 'subtle_enhancement']
+2025-06-08 01:22:16,067 - ImageProcessor - INFO - 🎯 Starting filter: average_blur
+2025-06-08 01:22:17,147 - ImageProcessor - INFO -    ✅ test/malignant: 500/500 images
+2025-06-08 01:22:18,086 - ImageProcessor - INFO -    ✅ test/benign: 500/500 images
+2025-06-08 01:22:27,798 - ImageProcessor - INFO -    ✅ train/malignant: 4605/4605 images
+2025-06-08 01:22:37,466 - ImageProcessor - INFO -    ✅ train/benign: 5000/5000 images
+2025-06-08 01:22:37,467 - ImageProcessor - INFO - 🎉 average_blur: 10605/10605 total
+2025-06-08 01:22:37,467 - ImageProcessor - INFO - 🎯 Starting filter: gaussian
+2025-06-08 01:22:38,473 - ImageProcessor - INFO -    ✅ test/malignant: 500/500 images
+2025-06-08 01:22:39,434 - ImageProcessor - INFO -    ✅ test/benign: 500/500 images
+2025-06-08 01:22:50,284 - ImageProcessor - INFO -    ✅ train/malignant: 4605/4605 images
+2025-06-08 01:23:00,230 - ImageProcessor - INFO -    ✅ train/benign: 5000/5000 images
+2025-06-08 01:23:00,230 - ImageProcessor - INFO - 🎉 gaussian: 10605/10605 total
+2025-06-08 01:23:00,230 - ImageProcessor - INFO - 🎯 Starting filter: bilateral
+2025-06-08 01:23:01,654 - ImageProcessor - INFO -    ✅ test/malignant: 500/500 images
+2025-06-08 01:23:03,048 - ImageProcessor - INFO -    ✅ test/benign: 500/500 images
+2025-06-08 01:23:16,478 - ImageProcessor - INFO -    ✅ train/malignant: 4605/4605 images
+2025-06-08 01:23:30,437 - ImageProcessor - INFO -    ✅ train/benign: 5000/5000 images
+2025-06-08 01:23:30,437 - ImageProcessor - INFO - 🎉 bilateral: 10605/10605 total
+2025-06-08 01:23:30,438 - ImageProcessor - INFO - 🎯 Starting filter: improved_bilateral
+2025-06-08 01:23:31,843 - ImageProcessor - INFO -    ✅ test/malignant: 500/500 images
+2025-06-08 01:23:33,180 - ImageProcessor - INFO -    ✅ test/benign: 500/500 images
+2025-06-08 01:23:47,670 - ImageProcessor - INFO -    ✅ train/malignant: 4605/4605 images
+2025-06-08 01:24:02,288 - ImageProcessor - INFO -    ✅ train/benign: 5000/5000 images
+2025-06-08 01:24:02,288 - ImageProcessor - INFO - 🎉 improved_bilateral: 10605/10605 total
+2025-06-08 01:24:02,288 - ImageProcessor - INFO - 🎯 Starting filter: subtle_enhancement
+2025-06-08 01:24:03,604 - ImageProcessor - INFO -    ✅ test/malignant: 500/500 images
+2025-06-08 01:24:04,874 - ImageProcessor - INFO -    ✅ test/benign: 500/500 images
+2025-06-08 01:24:17,467 - ImageProcessor - INFO -    ✅ train/malignant: 4605/4605 images
+2025-06-08 01:24:29,241 - ImageProcessor - INFO -    ✅ train/benign: 5000/5000 images
+2025-06-08 01:24:29,241 - ImageProcessor - INFO - 🎉 subtle_enhancement: 10605/10605 total
+2025-06-08 01:24:29,242 - ImageProcessor - INFO - ⚡ Total time: 133.2s
+2025-06-08 01:24:29,243 - Main - INFO - Processing completed in 133.47s
+2025-06-08 01:24:29,243 - Main - INFO - Memory change: -0.22 GB
+2025-06-08 01:24:29,243 - Main - INFO - CPU usage: 66.3%
